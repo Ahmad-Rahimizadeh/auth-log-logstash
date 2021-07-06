@@ -1,0 +1,6 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - /var/log/auth.log
+output.logstash:
+  hosts: ["logstash host"]
